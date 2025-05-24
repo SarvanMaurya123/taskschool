@@ -5,8 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node -r dotenv/config src/server.ts",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "dev": "ts-node -r dotenv/config src/server.ts"
   },
   "dependencies": {
     "axios": "^1.9.0",

@@ -3,10 +3,10 @@ import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
-import registeruser from '../src/router/register.route';
-import loginuser from '../src/router/login.route';
-import logout from "../src/router/logout.route"
-import addSchoolData from "../src/router/schoolRoutes"
+import registeruser from "./router/register.route"
+import loginuser from './router/login.route';
+import logout from "./router/logout.route"
+import addSchoolData from "./router/schoolRoutes"
 const app = express();
 // Middleware
 app.use(express.json());
