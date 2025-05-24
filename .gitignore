@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# PostgreSQL
+*.sql
+*.dump
+
+# Debugging dumps
+*.log
+*.pid
+
+# Optional: Ignore database config backups
+database.json
+database-backup.sql
+
+# Optional: Ignore test coverage
+.nyc_output/
