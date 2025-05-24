@@ -11,10 +11,7 @@
         "typeRoots": [
             "./node_modules/@types"
         ],
-        "types": [
-            "node",
-            "express"
-        ] // Only 'node' here is usually enough
+        "types": [] // Only 'node' here is usually enough
     },
     "include": [
         "src/**/*"
