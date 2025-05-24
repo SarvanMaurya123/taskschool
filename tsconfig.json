@@ -8,7 +8,10 @@
         "moduleResolution": "node",
         "strict": true,
         "resolveJsonModule": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "types": [
+            "node"
+        ], // 👈 This line is important
     },
     "include": [
         "src"
